@@ -4,9 +4,13 @@ QTouchSpinBox is a widget similar to the Android native numberpicker in qt.
 use this object in other widget and qform : 
 
 MainWindow::MainWindow(QWidget *parent)
+
     : QMainWindow(parent)
+    
     , ui(new Ui::MainWindow)
+    
 {
+
     ui->setupUi(this);
     m_touchspin = new QTouchSpins(this);
     m_touchspin->setStep(1);                 // Specify the steps of the displayed numbers
