@@ -1,7 +1,7 @@
 # QTouchSpinBox
 QTouchSpinBox is a widget similar to the Android native numberpicker in qt.
 
-use this object in other widget and qform : 
+use this object in other widget and qtform : 
 
 
     MainWindow::MainWindow(QWidget *parent)
